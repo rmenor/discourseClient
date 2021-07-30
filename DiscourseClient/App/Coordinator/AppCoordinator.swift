@@ -28,8 +28,22 @@ class AppCoordinator: Coordinator {
         self.window = window
     }
     
+    var dataManager = DataManager(remoteDataManager: RemoteDataManager())
+    
     func start() {
         let tabBarController = UITabBarController()
         tabBarController.tabBar.tintColor = .black
+        
+        // Añade el botón de usuarios
+        let usersNavigator = UINavigationController()
+        let usersCoordinator = UsersCoordinator(navigator: usersNavigator, userUseCases: dataManager)
+        usersCoordinator.start()
+        
+        //viewcontrollers del tabbar
+        tabBarController.viewControllers = [usersNavigator]
+        tabBarController.tabBar.items?.first?.image = UIImage(systemName: "tag")
+        
+        window.rootViewController = tabBarController
+        window.makeKeyAndVisible()
     }
 }
