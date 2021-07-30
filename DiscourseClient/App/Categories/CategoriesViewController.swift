@@ -70,8 +70,8 @@ class CategoriesViewController: UIViewController {
     }
     
     @objc private func onTapAddButton() {
-        showAlert(title: "Acción no disponible en estos momentos.", message: "")
-        //viewModel.onTapAddButton()
+        //showAlert(title: "Acción no disponible en estos momentos.", message: "")
+        viewModel.onTapAddButton()
     }
     
     // Justo antes de que aparezca la vista

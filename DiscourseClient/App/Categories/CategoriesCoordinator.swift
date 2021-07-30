@@ -34,6 +34,7 @@ class CategoriesCoordinator: Coordinator {
     }
     
     func onTapAddButton() {
-        
+        let createCategoryCoordinator = CreateCategoryCoordinator(navigator: navigator, createCategoryUseCases: DataManager(remoteDataManager: RemoteDataManager()))
+        createCategoryCoordinator.start()
     }
 }

@@ -11,6 +11,23 @@ class CategoryDetailViewController: UIViewController {
     
     let viewModel: CategoryDetailViewModel
     
+    var labelId: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
+
+    lazy var categoryIdStackView: UIStackView = {
+        let labelIdTitle = UILabel()
+        labelIdTitle.translatesAutoresizingMaskIntoConstraints = false
+        labelIdTitle.text = "Categoría ID: "
+
+        let categoryIdStackView = UIStackView(arrangedSubviews: [labelIdTitle, labelId])
+        categoryIdStackView.translatesAutoresizingMaskIntoConstraints = false
+        categoryIdStackView.axis = .horizontal
+        return categoryIdStackView
+    }()
+    
     var labelName: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -45,20 +62,39 @@ class CategoryDetailViewController: UIViewController {
         return categoryColorStackView
     }()
     
+    lazy var viewColorStackView: UIStackView = {
+        let viewColorStackView = UIStackView(arrangedSubviews: [])
+        viewColorStackView.translatesAutoresizingMaskIntoConstraints = false
+        viewColorStackView.axis = .horizontal
+        return viewColorStackView
+    }()
+    
     override func loadView() {
         view = UIView()
         view.backgroundColor = .white
         
+        view.addSubview(categoryIdStackView)
+        NSLayoutConstraint.activate([
+            categoryIdStackView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 16),
+            categoryIdStackView.topAnchor.constraint(equalTo: view.topAnchor, constant: 128),
+        ])
+        
         view.addSubview(categoryNameStackView)
         NSLayoutConstraint.activate([
             categoryNameStackView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 16),
-            categoryNameStackView.topAnchor.constraint(equalTo: view.topAnchor, constant: 128),
+            categoryNameStackView.topAnchor.constraint(equalTo: categoryIdStackView.bottomAnchor, constant: 32)
         ])
         
         view.addSubview(categoryColorStackView)
         NSLayoutConstraint.activate([
             categoryColorStackView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 16),
             categoryColorStackView.topAnchor.constraint(equalTo: categoryNameStackView.bottomAnchor, constant: 32)
+        ])
+        
+        view.addSubview(viewColorStackView)
+        NSLayoutConstraint.activate([
+            viewColorStackView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 16),
+            viewColorStackView.topAnchor.constraint(equalTo: categoryColorStackView.bottomAnchor, constant: 32)
         ])
     }
     
@@ -90,8 +126,10 @@ class CategoryDetailViewController: UIViewController {
     }
     
     private func updateUI(categoryDetailViewStruct: CategoryDetailViewStruct) {
+        labelId.text = categoryDetailViewStruct.categoryId
         labelName.text = categoryDetailViewStruct.categoryName
         labelColor.text = "#" + categoryDetailViewStruct.categoryColor!
         labelColor.backgroundColor = viewModel.getColor(color: labelColor.text!)
+        viewColorStackView.backgroundColor = viewModel.getColor(color: labelColor.text!)
     }
 }
