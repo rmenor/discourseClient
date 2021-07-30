@@ -44,10 +44,16 @@ class AppCoordinator: Coordinator {
         let topicsCoordinator = TopicsCoordinator(navigator: topicsNavigator, topicsUseCase: dataManager)
         topicsCoordinator.start()
         
+        // Añade el botón de categories
+        let categoriesNavigator = UINavigationController()
+        let categoriesCoordinator = CategoriesCoordinator(navigator: categoriesNavigator, categoriesUseCase: dataManager)
+        categoriesCoordinator.start()
+        
         //viewcontrollers del tabbar
-        tabBarController.viewControllers = [usersNavigator, topicsNavigator]
+        tabBarController.viewControllers = [usersNavigator, categoriesNavigator, topicsNavigator]
         tabBarController.tabBar.items?.first?.image = UIImage(systemName: "tag")
-        tabBarController.tabBar.items?[1].image = UIImage(systemName: "list.dash")
+        tabBarController.tabBar.items?[1].image = UIImage(systemName: "case")
+        tabBarController.tabBar.items?[2].image = UIImage(systemName: "list.dash")
         
         window.rootViewController = tabBarController
         window.makeKeyAndVisible()

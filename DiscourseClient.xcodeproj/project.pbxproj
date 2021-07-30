@@ -60,6 +60,21 @@
 		ABF38A4D26B3EC7000BA0DDC /* CreateTopicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A4C26B3EC7000BA0DDC /* CreateTopicViewModel.swift */; };
 		ABF38A4F26B3EC8A00BA0DDC /* CreateTopicCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A4E26B3EC8A00BA0DDC /* CreateTopicCoordinator.swift */; };
 		ABF38A5126B3ECAB00BA0DDC /* CreateTopicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF38A5026B3ECAB00BA0DDC /* CreateTopicViewController.xib */; };
+		ABF38A5726B3F15500BA0DDC /* CategoryDetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A5626B3F15500BA0DDC /* CategoryDetailCoordinator.swift */; };
+		ABF38A5926B3F16E00BA0DDC /* CategoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A5826B3F16E00BA0DDC /* CategoryDetailViewModel.swift */; };
+		ABF38A5B26B3F18200BA0DDC /* CategoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A5A26B3F18200BA0DDC /* CategoryDetailViewController.swift */; };
+		ABF38A5D26B3F1A800BA0DDC /* CategoriesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A5C26B3F1A800BA0DDC /* CategoriesCoordinator.swift */; };
+		ABF38A5F26B3F1C000BA0DDC /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A5E26B3F1C000BA0DDC /* CategoriesViewModel.swift */; };
+		ABF38A6126B3F1D600BA0DDC /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A6026B3F1D600BA0DDC /* CategoriesViewController.swift */; };
+		ABF38A6326B3F1EE00BA0DDC /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A6226B3F1EE00BA0DDC /* CategoryCell.swift */; };
+		ABF38A6526B3F1FE00BA0DDC /* CategoryCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A6426B3F1FE00BA0DDC /* CategoryCellViewModel.swift */; };
+		ABF38A6726B3F21B00BA0DDC /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABF38A6626B3F21B00BA0DDC /* CategoryCell.xib */; };
+		ABF38A6926B3F25F00BA0DDC /* CategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A6826B3F25F00BA0DDC /* CategoriesResponse.swift */; };
+		ABF38A6B26B3F27900BA0DDC /* CategoryDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A6A26B3F27900BA0DDC /* CategoryDetailResponse.swift */; };
+		ABF38A6D26B3F2A400BA0DDC /* CategoriesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A6C26B3F2A400BA0DDC /* CategoriesRequest.swift */; };
+		ABF38A6F26B3F2B600BA0DDC /* CategoryDetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A6E26B3F2B600BA0DDC /* CategoryDetailRequest.swift */; };
+		ABF38A7226B3F2E200BA0DDC /* CategoriesUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A7126B3F2E200BA0DDC /* CategoriesUseCases.swift */; };
+		ABF38A7426B3F2FA00BA0DDC /* CategoryDetailUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF38A7326B3F2FA00BA0DDC /* CategoryDetailUseCases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +133,21 @@
 		ABF38A4C26B3EC7000BA0DDC /* CreateTopicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTopicViewModel.swift; sourceTree = "<group>"; };
 		ABF38A4E26B3EC8A00BA0DDC /* CreateTopicCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTopicCoordinator.swift; sourceTree = "<group>"; };
 		ABF38A5026B3ECAB00BA0DDC /* CreateTopicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateTopicViewController.xib; sourceTree = "<group>"; };
+		ABF38A5626B3F15500BA0DDC /* CategoryDetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailCoordinator.swift; sourceTree = "<group>"; };
+		ABF38A5826B3F16E00BA0DDC /* CategoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailViewModel.swift; sourceTree = "<group>"; };
+		ABF38A5A26B3F18200BA0DDC /* CategoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailViewController.swift; sourceTree = "<group>"; };
+		ABF38A5C26B3F1A800BA0DDC /* CategoriesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCoordinator.swift; sourceTree = "<group>"; };
+		ABF38A5E26B3F1C000BA0DDC /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		ABF38A6026B3F1D600BA0DDC /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		ABF38A6226B3F1EE00BA0DDC /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		ABF38A6426B3F1FE00BA0DDC /* CategoryCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellViewModel.swift; sourceTree = "<group>"; };
+		ABF38A6626B3F21B00BA0DDC /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		ABF38A6826B3F25F00BA0DDC /* CategoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesResponse.swift; sourceTree = "<group>"; };
+		ABF38A6A26B3F27900BA0DDC /* CategoryDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailResponse.swift; sourceTree = "<group>"; };
+		ABF38A6C26B3F2A400BA0DDC /* CategoriesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRequest.swift; sourceTree = "<group>"; };
+		ABF38A6E26B3F2B600BA0DDC /* CategoryDetailRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailRequest.swift; sourceTree = "<group>"; };
+		ABF38A7126B3F2E200BA0DDC /* CategoriesUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesUseCases.swift; sourceTree = "<group>"; };
+		ABF38A7326B3F2FA00BA0DDC /* CategoryDetailUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailUseCases.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +196,7 @@
 		ABF389DC26B3E1F700BA0DDC /* App */ = {
 			isa = PBXGroup;
 			children = (
+				ABF38A5226B3F12600BA0DDC /* Categories */,
 				ABF38A1B26B3E95900BA0DDC /* Topics */,
 				ABF38A1626B3E82400BA0DDC /* Utils */,
 				ABF389E226B3E42F00BA0DDC /* Users */,
@@ -217,6 +248,7 @@
 		ABF389E526B3E4A200BA0DDC /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				ABF38A7026B3F2CF00BA0DDC /* Categories */,
 				ABF38A2926B3EA2800BA0DDC /* Topics */,
 				ABF38A2826B3EA1D00BA0DDC /* Users */,
 			);
@@ -236,8 +268,8 @@
 		ABF389F126B3E5A500BA0DDC /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				ABF389F526B3E5E100BA0DDC /* Request */,
 				ABF389F226B3E5B000BA0DDC /* Response */,
+				ABF389F526B3E5E100BA0DDC /* Request */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -252,6 +284,8 @@
 				ABF38A3A26B3EB2E00BA0DDC /* TopicDetailResponse.swift */,
 				ABF38A3C26B3EB5000BA0DDC /* CreateTopicResponse.swift */,
 				ABF38A3E26B3EB6500BA0DDC /* DeleteTopicResponse.swift */,
+				ABF38A6826B3F25F00BA0DDC /* CategoriesResponse.swift */,
+				ABF38A6A26B3F27900BA0DDC /* CategoryDetailResponse.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -266,6 +300,8 @@
 				ABF38A3226B3EAC200BA0DDC /* TopicDetailRequest.swift */,
 				ABF38A3426B3EADC00BA0DDC /* CreateTopicRequest.swift */,
 				ABF38A3626B3EAF400BA0DDC /* DeleteTopicRequest.swift */,
+				ABF38A6C26B3F2A400BA0DDC /* CategoriesRequest.swift */,
+				ABF38A6E26B3F2B600BA0DDC /* CategoryDetailRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -344,6 +380,39 @@
 			path = Topics;
 			sourceTree = "<group>";
 		};
+		ABF38A5226B3F12600BA0DDC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				ABF38A5326B3F12F00BA0DDC /* CategoryDetail */,
+				ABF38A5C26B3F1A800BA0DDC /* CategoriesCoordinator.swift */,
+				ABF38A5E26B3F1C000BA0DDC /* CategoriesViewModel.swift */,
+				ABF38A6026B3F1D600BA0DDC /* CategoriesViewController.swift */,
+				ABF38A6226B3F1EE00BA0DDC /* CategoryCell.swift */,
+				ABF38A6426B3F1FE00BA0DDC /* CategoryCellViewModel.swift */,
+				ABF38A6626B3F21B00BA0DDC /* CategoryCell.xib */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		ABF38A5326B3F12F00BA0DDC /* CategoryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				ABF38A5626B3F15500BA0DDC /* CategoryDetailCoordinator.swift */,
+				ABF38A5826B3F16E00BA0DDC /* CategoryDetailViewModel.swift */,
+				ABF38A5A26B3F18200BA0DDC /* CategoryDetailViewController.swift */,
+			);
+			path = CategoryDetail;
+			sourceTree = "<group>";
+		};
+		ABF38A7026B3F2CF00BA0DDC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				ABF38A7126B3F2E200BA0DDC /* CategoriesUseCases.swift */,
+				ABF38A7326B3F2FA00BA0DDC /* CategoryDetailUseCases.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -402,6 +471,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABF38A5126B3ECAB00BA0DDC /* CreateTopicViewController.xib in Resources */,
+				ABF38A6726B3F21B00BA0DDC /* CategoryCell.xib in Resources */,
 				ABF389D526B3E16A00BA0DDC /* LaunchScreen.storyboard in Resources */,
 				ABF38A2126B3E9A000BA0DDC /* TopicCell.xib in Resources */,
 				ABF389D226B3E16A00BA0DDC /* Assets.xcassets in Resources */,
@@ -419,7 +489,9 @@
 				ABF389F426B3E5C200BA0DDC /* UsersResponse.swift in Sources */,
 				ABF38A3526B3EADC00BA0DDC /* CreateTopicRequest.swift in Sources */,
 				ABF38A4B26B3EC4400BA0DDC /* CreateTopicViewController.swift in Sources */,
+				ABF38A5B26B3F18200BA0DDC /* CategoryDetailViewController.swift in Sources */,
 				ABF38A1526B3E80300BA0DDC /* UpdateUserNameResponse.swift in Sources */,
+				ABF38A6B26B3F27900BA0DDC /* CategoryDetailResponse.swift in Sources */,
 				ABF389FA26B3E62500BA0DDC /* UsersViewModel.swift in Sources */,
 				ABF38A3126B3EAA600BA0DDC /* LatestTopicsRequest.swift in Sources */,
 				ABF38A2F26B3EA6E00BA0DDC /* CreateTopicUseCases.swift in Sources */,
@@ -427,6 +499,7 @@
 				ABF38A0626B3E71E00BA0DDC /* UserDetailUseCases.swift in Sources */,
 				ABF389F026B3E58800BA0DDC /* UsersUseCases.swift in Sources */,
 				ABF38A1826B3E83600BA0DDC /* ViewModel.swift in Sources */,
+				ABF38A6D26B3F2A400BA0DDC /* CategoriesRequest.swift in Sources */,
 				ABF389FC26B3E64900BA0DDC /* UsersViewController.swift in Sources */,
 				ABF389EA26B3E4DC00BA0DDC /* SessionAPI.swift in Sources */,
 				ABF38A0D26B3E77B00BA0DDC /* UserDetailViewController.swift in Sources */,
@@ -435,6 +508,7 @@
 				ABF38A0B26B3E76000BA0DDC /* UserDetailViewModel.swift in Sources */,
 				ABF38A3726B3EAF400BA0DDC /* DeleteTopicRequest.swift in Sources */,
 				ABF389F826B3E5F500BA0DDC /* UsersRequest.swift in Sources */,
+				ABF38A7426B3F2FA00BA0DDC /* CategoryDetailUseCases.swift in Sources */,
 				ABF389E426B3E48100BA0DDC /* DataManager.swift in Sources */,
 				ABF389FE26B3E67A00BA0DDC /* UserCell.swift in Sources */,
 				ABF38A1A26B3E86100BA0DDC /* UIViewController+Extension.swift in Sources */,
@@ -447,23 +521,33 @@
 				ABF38A2726B3EA0200BA0DDC /* TopicsCoordinator.swift in Sources */,
 				ABF38A3926B3EB1700BA0DDC /* LatestTopicsResponse.swift in Sources */,
 				ABF38A4F26B3EC8A00BA0DDC /* CreateTopicCoordinator.swift in Sources */,
+				ABF38A6526B3F1FE00BA0DDC /* CategoryCellViewModel.swift in Sources */,
 				ABF38A4926B3EC0500BA0DDC /* TopicDetailViewController.swift in Sources */,
+				ABF38A7226B3F2E200BA0DDC /* CategoriesUseCases.swift in Sources */,
 				ABF38A0926B3E74C00BA0DDC /* UserDetailCoordinator.swift in Sources */,
 				ABF38A2526B3E9EB00BA0DDC /* TopicCellViewModel.swift in Sources */,
 				ABF38A1126B3E7C000BA0DDC /* UserDetailRequest.swift in Sources */,
+				ABF38A5D26B3F1A800BA0DDC /* CategoriesCoordinator.swift in Sources */,
 				ABF389C926B3E16800BA0DDC /* AppDelegate.swift in Sources */,
+				ABF38A6126B3F1D600BA0DDC /* CategoriesViewController.swift in Sources */,
 				ABF38A4326B3EBB200BA0DDC /* TopicsViewModel.swift in Sources */,
+				ABF38A5F26B3F1C000BA0DDC /* CategoriesViewModel.swift in Sources */,
 				ABF389EC26B3E4F700BA0DDC /* APIRequest.swift in Sources */,
 				ABF38A0426B3E6ED00BA0DDC /* UserCellViewModel.swift in Sources */,
+				ABF38A5926B3F16E00BA0DDC /* CategoryDetailViewModel.swift in Sources */,
 				ABF38A3D26B3EB5000BA0DDC /* CreateTopicResponse.swift in Sources */,
 				ABF389EE26B3E56F00BA0DDC /* UsersCoordinator.swift in Sources */,
 				ABF38A0F26B3E7A800BA0DDC /* UserDetailResponse.swift in Sources */,
 				ABF389CB26B3E16800BA0DDC /* SceneDelegate.swift in Sources */,
 				ABF38A3F26B3EB6500BA0DDC /* DeleteTopicResponse.swift in Sources */,
 				ABF38A1F26B3E98E00BA0DDC /* TopicCell.swift in Sources */,
+				ABF38A5726B3F15500BA0DDC /* CategoryDetailCoordinator.swift in Sources */,
 				ABF38A1326B3E7E800BA0DDC /* UpdateUserNameRequest.swift in Sources */,
 				ABF38A4526B3EBD700BA0DDC /* TopicDetailCoordinator.swift in Sources */,
+				ABF38A6F26B3F2B600BA0DDC /* CategoryDetailRequest.swift in Sources */,
+				ABF38A6926B3F25F00BA0DDC /* CategoriesResponse.swift in Sources */,
 				ABF38A4726B3EBEB00BA0DDC /* TopicDetailViewModel.swift in Sources */,
+				ABF38A6326B3F1EE00BA0DDC /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
