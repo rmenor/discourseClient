@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D8633AE6-FD5D-42AC-892D-D584570B3956"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52FF4EC3-0FBA-43A9-9562-BE8F2C538B47"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscourseClient/App/Topics/CreateTopic/CreateTopicCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "52FF4EC3-0FBA-43A9-9562-BE8F2C538B47 - ec980213a4a29cb2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscourseClient.CreateTopicCoordinator.deinit"
+                  moduleName = "DiscourseClient"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramonmenor/trabajo/github/discourseClient/DiscourseClient/App/Topics/CreateTopic/CreateTopicCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "52FF4EC3-0FBA-43A9-9562-BE8F2C538B47 - 15464a165b9aff5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscourseClient.CreateTopicCoordinator.__deallocating_deinit"
+                  moduleName = "DiscourseClient"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ramonmenor/trabajo/github/discourseClient/DiscourseClient/App/Topics/CreateTopic/CreateTopicCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -39,9 +39,15 @@ class AppCoordinator: Coordinator {
         let usersCoordinator = UsersCoordinator(navigator: usersNavigator, userUseCases: dataManager)
         usersCoordinator.start()
         
+        // Añade el botón de topics
+        let topicsNavigator = UINavigationController()
+        let topicsCoordinator = TopicsCoordinator(navigator: topicsNavigator, topicsUseCase: dataManager)
+        topicsCoordinator.start()
+        
         //viewcontrollers del tabbar
-        tabBarController.viewControllers = [usersNavigator]
+        tabBarController.viewControllers = [usersNavigator, topicsNavigator]
         tabBarController.tabBar.items?.first?.image = UIImage(systemName: "tag")
+        tabBarController.tabBar.items?[1].image = UIImage(systemName: "list.dash")
         
         window.rootViewController = tabBarController
         window.makeKeyAndVisible()
